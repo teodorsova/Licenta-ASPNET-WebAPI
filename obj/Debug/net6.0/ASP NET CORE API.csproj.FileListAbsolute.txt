@@ -1,0 +1,127 @@
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\appsettings.Development.json
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\appsettings.json
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\ASP NET CORE API.exe
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\ASP NET CORE API.deps.json
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\ASP NET CORE API.runtimeconfig.json
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\ASP NET CORE API.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\ASP NET CORE API.pdb
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.csproj.AssemblyReference.cache
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.AssemblyInfoInputs.cache
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.AssemblyInfo.cs
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.csproj.CoreCompileInputs.cache
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.MvcApplicationPartsAssemblyInfo.cs
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.MvcApplicationPartsAssemblyInfo.cache
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\scopedcss\bundle\ASP NET CORE API.styles.css
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.csproj.CopyComplete
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.dll
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ref\ASP NET CORE API.dll
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.pdb
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.genruntimeconfig.cache
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\EntityFramework.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Npgsql.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\System.CodeDom.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Humanizer.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Facultate\Licenta\ASP NET CORE API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Facultate\Licenta\ASP NET CORE API\obj\Debug\net6.0\refint\ASP NET CORE API.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\appsettings.Development.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\appsettings.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\ASP NET CORE API.exe
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\ASP NET CORE API.deps.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\ASP NET CORE API.runtimeconfig.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\ASP NET CORE API.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\ASP NET CORE API.pdb
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\EntityFramework.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Humanizer.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Npgsql.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\System.CodeDom.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.csproj.AssemblyReference.cache
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.AssemblyInfoInputs.cache
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.AssemblyInfo.cs
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.csproj.CoreCompileInputs.cache
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.MvcApplicationPartsAssemblyInfo.cs
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.MvcApplicationPartsAssemblyInfo.cache
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\scopedcss\bundle\ASP NET CORE API.styles.css
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.csproj.CopyComplete
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\refint\ASP NET CORE API.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.pdb
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.genruntimeconfig.cache
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ref\ASP NET CORE API.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\build\asset-manifest.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\build\manifest.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\package-lock.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\package.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\public\manifest.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\src\res\json\countryCodes.json
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
