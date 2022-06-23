@@ -1,6 +1,10 @@
 using auth.Data;
 using auth.Helpers;
 using Microsoft.EntityFrameworkCore;
+using Azure.Extensions.AspNetCore.Configuration.Secrets;
+using Azure.Identity;
+using Azure.Security.KeyVault.Secrets;
+using Microsoft.Azure.Services.AppAuthentication;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +36,14 @@ builder.Services.AddScoped<IJwtService, JwtService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Configuration.AddAzureKeyVault(
+    new Uri("https://secrets-licenta.vault.azure.net/"),
+    new DefaultAzureCredential(),
+    new AzureKeyVaultConfigurationOptions
+    {
+        ReloadInterval = TimeSpan.FromMinutes(5)
+    }
+);
 
 var app = builder.Build();
 

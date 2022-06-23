@@ -118,10 +118,19 @@ C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\refint\ASP NE
 C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.pdb
 C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ASP NET CORE API.genruntimeconfig.cache
 C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\obj\Debug\net6.0\ref\ASP NET CORE API.dll
-C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\build\asset-manifest.json
-C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\build\manifest.json
-C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\package-lock.json
-C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\package.json
-C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\public\manifest.json
-C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\client\src\res\json\countryCodes.json
 C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Azure.Core.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Azure.Storage.Common.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\System.IO.Hashing.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.WindowsAzure.Storage.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Facultate\Licenta\Licenta Bun\ASP NET CORE API\bin\Debug\net6.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll

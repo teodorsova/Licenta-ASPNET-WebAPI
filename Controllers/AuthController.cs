@@ -1,9 +1,12 @@
 using auth.Data;
 using auth.Helpers;
 using auth.Models;
+using Azure.Storage.Blobs;
 using BCrypt.Net;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
 
 namespace auth.Controllers
 {
@@ -14,12 +17,15 @@ namespace auth.Controllers
         private readonly IUserRepo _userRepo;
         private readonly ISubscriptionRepo _subscriptionRepo;
         private readonly IJwtService _jwtService;
+        private readonly IConfiguration _configuration;
 
-        public AuthController(IUserRepo userRepo, ISubscriptionRepo subscriptionRepo, IJwtService jwtService)
+
+        public AuthController(IUserRepo userRepo, ISubscriptionRepo subscriptionRepo, IJwtService jwtService, IConfiguration configuration)
         {
             _userRepo = userRepo;
             _subscriptionRepo = subscriptionRepo;
             _jwtService = jwtService;
+            _configuration = configuration;
         }
         [HttpPost("register")]
         public IActionResult Register(UserModelRegisterDto dto)
@@ -222,5 +228,72 @@ namespace auth.Controllers
             _subscriptionRepo.UpdateSubscription();
             return Ok();
         }
+        [HttpGet("azure/get/config")]
+        public async Task<IActionResult> GetConfigFile()
+        {
+            CloudBlockBlob blockBlob;
+            await using (MemoryStream memoryStream = new MemoryStream())
+            {
+                string fileName = "config.xml";
+                string blobstorageconnection = _configuration.GetValue<string>("BlobConnectionString");
+                CloudStorageAccount cloudStorageAccount = CloudStorageAccount.Parse(blobstorageconnection);
+                CloudBlobClient cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
+                CloudBlobContainer cloudBlobContainer = cloudBlobClient.GetContainerReference(_configuration.GetValue<string>("BlobContainerName"));
+                blockBlob = cloudBlobContainer.GetBlockBlobReference(fileName);
+                await blockBlob.DownloadToStreamAsync(memoryStream);
+            }
+            Stream blobStream = blockBlob.OpenReadAsync().Result;
+            return File(blobStream, blockBlob.Properties.ContentType, blockBlob.Name);
+
+        }
+
+        [HttpPost("azure/get/package")]
+        public async Task<IActionResult> GetAssetBundleFile(PackageGetDto packageGetDto)
+        {
+            Console.WriteLine("----------------");
+            Console.WriteLine(Request.ToString());
+            Console.WriteLine("----------------");
+            CloudBlockBlob blockBlob;
+            try{
+            await using (MemoryStream memoryStream = new MemoryStream())
+            {
+                string blobstorageconnection = _configuration.GetValue<string>("BlobConnectionString");
+                CloudStorageAccount cloudStorageAccount = CloudStorageAccount.Parse(blobstorageconnection);
+                CloudBlobClient cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
+                CloudBlobContainer cloudBlobContainer = cloudBlobClient.GetContainerReference(_configuration.GetValue<string>("BlobContainerName"));
+                blockBlob = cloudBlobContainer.GetBlockBlobReference(packageGetDto.FileName);
+                await blockBlob.DownloadToStreamAsync(memoryStream);
+            }
+            Stream blobStream = blockBlob.OpenReadAsync().Result;
+            return File(blobStream, blockBlob.Properties.ContentType, blockBlob.Name);
+            } catch (Exception e) {
+                Console.WriteLine(e.Message);
+            }
+            return BadRequest();
+
+        }
+        [DisableRequestSizeLimit]
+        [RequestFormLimits(ValueLengthLimit = int.MaxValue, MultipartBodyLengthLimit = int.MaxValue)]
+        [HttpPost("azure/post/upload")]
+        public async Task<IActionResult> UploadFile(IFormFile body)
+        {
+            
+            string systemFileName = body.FileName;
+            string blobstorageconnection = _configuration.GetValue<string>("BlobConnectionString");
+            // Retrieve storage account from connection string.    
+            CloudStorageAccount cloudStorageAccount = CloudStorageAccount.Parse(blobstorageconnection);
+            // Create the blob client.    
+            CloudBlobClient blobClient = cloudStorageAccount.CreateCloudBlobClient();
+            // Retrieve a reference to a container.    
+            CloudBlobContainer container = blobClient.GetContainerReference(_configuration.GetValue<string>("BlobContainerName"));
+            // This also does not make a service call; it only creates a local object.    
+            CloudBlockBlob blockBlob = container.GetBlockBlobReference(systemFileName);
+            await using (var data = body.OpenReadStream())
+            {
+                await blockBlob.UploadFromStreamAsync(data);
+            }
+            return Ok("File Uploaded Successfully");
+        }
+
     }
 }
