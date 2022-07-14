@@ -6,6 +6,8 @@ namespace auth.Models {
         public int UserId { get; set; }
         [Required]
         public UserModel User { get; set; }
-        public string Status { get; set; }
+        public string AddressLine1 {get;set;}
+        public string AddressLine2{get;set;}
+        public DateTime Date {get;set;}
     }
 }

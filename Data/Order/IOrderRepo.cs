@@ -5,6 +5,7 @@ namespace auth.Data {
         OrderModel createOrder(OrderModel model);
         FurnitureOrderModel createFurnitureOrder(FurnitureOrderModel model);
         public OrderModel GetById(int Id);
-        List<OrderModel> GetAllOrders(int userId);
+        List<OrderModel> GetAllOrders();
+        List<OrderModel> GetAllOrdersById(int userId);
     }
 }

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
+using Google.Cloud.Firestore;
 
 namespace auth.Controllers
 {
@@ -18,8 +19,6 @@ namespace auth.Controllers
         private readonly ISubscriptionRepo _subscriptionRepo;
         private readonly IJwtService _jwtService;
         private readonly IConfiguration _configuration;
-
-
         public AuthController(IUserRepo userRepo, ISubscriptionRepo subscriptionRepo, IJwtService jwtService, IConfiguration configuration)
         {
             _userRepo = userRepo;
@@ -250,9 +249,6 @@ namespace auth.Controllers
         [HttpPost("azure/get/package")]
         public async Task<IActionResult> GetAssetBundleFile(PackageGetDto packageGetDto)
         {
-            Console.WriteLine("----------------");
-            Console.WriteLine(Request.ToString());
-            Console.WriteLine("----------------");
             CloudBlockBlob blockBlob;
             try{
             await using (MemoryStream memoryStream = new MemoryStream())
@@ -280,13 +276,13 @@ namespace auth.Controllers
             
             string systemFileName = body.FileName;
             string blobstorageconnection = _configuration.GetValue<string>("BlobConnectionString");
-            // Retrieve storage account from connection string.    
+
             CloudStorageAccount cloudStorageAccount = CloudStorageAccount.Parse(blobstorageconnection);
-            // Create the blob client.    
+
             CloudBlobClient blobClient = cloudStorageAccount.CreateCloudBlobClient();
-            // Retrieve a reference to a container.    
+
             CloudBlobContainer container = blobClient.GetContainerReference(_configuration.GetValue<string>("BlobContainerName"));
-            // This also does not make a service call; it only creates a local object.    
+  
             CloudBlockBlob blockBlob = container.GetBlockBlobReference(systemFileName);
             await using (var data = body.OpenReadStream())
             {

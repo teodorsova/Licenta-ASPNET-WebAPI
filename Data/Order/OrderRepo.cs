@@ -19,7 +19,7 @@ namespace auth.Data {
 
         public OrderModel createOrder(OrderModel model)
         {
-            model.Status = "Awaiting confirmation...";
+            model.Date = DateTime.UtcNow;
             _context.Orders.Add(model);
             _context.SaveChanges();
             return model;
@@ -30,9 +30,13 @@ namespace auth.Data {
             return _context.Orders.FirstOrDefault(u => u.Id == Id);
         }
 
-        public List<OrderModel> GetAllOrders(int userId)
+        public List<OrderModel> GetAllOrdersById(int userId)
         {
             return _context.Orders.Where(order => order.UserId == userId).ToList();
+        }
+
+        public List<OrderModel> GetAllOrders() {
+            return _context.Orders.ToList();
         }
     }
 }

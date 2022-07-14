@@ -11,6 +11,7 @@ namespace auth.Data {
         }
         public FurnitureModel createFurniture(FurnitureModel model)
         {
+            model.Status = "Processing";
             _context.Furnitures.Add(model);
             _context.SaveChanges();
             return model;
@@ -30,6 +31,30 @@ namespace auth.Data {
                 furnitureModels.Add(furnitureModel);
             }
             return furnitureModels;
+        }
+
+        public List<Tuple<OrderModel, List<FurnitureModel>>> GetFurnituresForAccount(int accountId, List<OrderModel> orders) {
+            List<Tuple<OrderModel, List<FurnitureModel>>> returnData = new List<Tuple<OrderModel, List<FurnitureModel>>>();
+
+            foreach(OrderModel order in orders) {
+                 List<FurnitureModel> furnitureModels = GetFurnituresForOrder(order.Id);
+                 order.User = _context.Users.FirstOrDefault(u=>u.Id == order.UserId);
+                 order.User.Password = "";
+                 order.User.Role="";
+                 furnitureModels = furnitureModels.FindAll(furniture=> furniture.UserId == accountId);
+                 if(furnitureModels.Count > 0) {
+                    returnData.Add(new Tuple<OrderModel, List<FurnitureModel>>(order, furnitureModels));
+                 }
+            }
+            return returnData;
+        }
+
+        public FurnitureModel UpdateFurnitureStatus(int id, string status)
+        {
+            FurnitureModel furniture = _context.Furnitures.FirstOrDefault(f => f.Id == id);
+            furniture.Status = status;
+            _context.SaveChanges();
+            return furniture;
         }
     }
 }
